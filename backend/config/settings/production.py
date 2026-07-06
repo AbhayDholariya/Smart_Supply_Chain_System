@@ -1,0 +1,17 @@
+"""Production settings."""
+from .base import *  # noqa: F401, F403
+import environ
+
+env = environ.Env()
+
+DEBUG = False
+
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS")
+
+CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
+
+SECURE_HSTS_SECONDS = 31536000
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True

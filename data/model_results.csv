@@ -1,0 +1,13 @@
+Target,Model,Accuracy,Precision,Recall,F1
+disruption_occurred,Logistic Regression,0.9992,0.9992,0.9992,0.9992
+disruption_occurred,Decision Tree,1.0,1.0,1.0,1.0
+disruption_occurred,Random Forest,1.0,1.0,1.0,1.0
+disruption_occurred,Gradient Boosting,1.0,1.0,1.0,1.0
+disruption_severity,Logistic Regression,0.9985,0.9985,0.9985,0.9985
+disruption_severity,Decision Tree,1.0,1.0,1.0,1.0
+disruption_severity,Random Forest,0.995,0.9951,0.995,0.995
+disruption_severity,Gradient Boosting,1.0,1.0,1.0,1.0
+final_delivery_status,Logistic Regression,0.9825,0.9825,0.9825,0.9825
+final_delivery_status,Decision Tree,1.0,1.0,1.0,1.0
+final_delivery_status,Random Forest,1.0,1.0,1.0,1.0
+final_delivery_status,Gradient Boosting,1.0,1.0,1.0,1.0
