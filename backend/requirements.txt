@@ -1,4 +1,11 @@
 # backend/requirements.txt
+# Django and DRF
+Django>=4.2
+djangorestframework>=3.14
+django-cors-headers>=4.0
+channels>=4.0
+
+# FastAPI (keep for reference, but we'll use Django now)
 fastapi>=0.111.0
 uvicorn[standard]>=0.29.0
 websockets>=12.0

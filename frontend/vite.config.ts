@@ -10,27 +10,23 @@ export default defineConfig({
     },
   },
   server: {
-    port: 3000,
+    port: 3001,
     proxy: {
       "/api": {
-        target: "http://localhost:6000",
-        changeOrigin: true,
-      },
-      "/shipments": {
-        target: "http://localhost:6000",
-        changeOrigin: true,
-      },
-      "/alerts": {
-        target: "http://localhost:6000",
-        changeOrigin: true,
-      },
-      "/reroute": {
-        target: "http://localhost:6000",
+        target: "http://localhost:8000",
         changeOrigin: true,
       },
       "/ws": {
-        target: "ws://localhost:6000",
+        target: "ws://localhost:8000",
         ws: true,
+      },
+      "/health": {
+        target: "http://localhost:8000",
+        changeOrigin: true,
+      },
+      "/docs": {
+        target: "http://localhost:8000",
+        changeOrigin: true,
       },
     },
   },

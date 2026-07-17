@@ -1,0 +1,405 @@
+{
+  "shipments": [
+    {
+      "id": "SHP-4420",
+      "origin": "Dubai",
+      "destination": "Hamburg",
+      "carrier": "CMA-CGM",
+      "lat": -40.39,
+      "lng": -27.29,
+      "status": "on-schedule",
+      "risk_score": 36.8,
+      "risk_level": "critical",
+      "is_anomaly": true,
+      "speed_kmh": 17.2,
+      "progress": 0.53,
+      "cargo_type": "Textiles",
+      "value_usd": 443597,
+      "eta_days": 9.6,
+      "top_risk_factors": [
+        "port_delay"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4421",
+      "origin": "Mumbai",
+      "destination": "Los Angeles",
+      "carrier": "Evergreen",
+      "lat": 37.23,
+      "lng": -122.56,
+      "status": "in-transit",
+      "risk_score": 12.1,
+      "risk_level": "low",
+      "is_anomaly": false,
+      "speed_kmh": 29.7,
+      "progress": 0.84,
+      "cargo_type": "Machinery",
+      "value_usd": 320569,
+      "eta_days": 24.2,
+      "top_risk_factors": [
+        "congestion",
+        "weather",
+        "piracy"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4422",
+      "origin": "Dubai",
+      "destination": "Hamburg",
+      "carrier": "CMA-CGM",
+      "lat": 49.72,
+      "lng": 21.91,
+      "status": "delayed",
+      "risk_score": 20.2,
+      "risk_level": "medium",
+      "is_anomaly": false,
+      "speed_kmh": 19.3,
+      "progress": 0.16,
+      "cargo_type": "Machinery",
+      "value_usd": 495720,
+      "eta_days": 28.6,
+      "top_risk_factors": [
+        "congestion"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4423",
+      "origin": "Singapore",
+      "destination": "Los Angeles",
+      "carrier": "MSC",
+      "lat": 52.55,
+      "lng": -138.34,
+      "status": "on-schedule",
+      "risk_score": 84.2,
+      "risk_level": "low",
+      "is_anomaly": true,
+      "speed_kmh": 17.0,
+      "progress": 0.1,
+      "cargo_type": "Textiles",
+      "value_usd": 413098,
+      "eta_days": 18.6,
+      "top_risk_factors": [
+        "congestion",
+        "piracy",
+        "port_delay"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4424",
+      "origin": "Singapore",
+      "destination": "Antwerp",
+      "carrier": "Maersk",
+      "lat": 4.73,
+      "lng": -8.19,
+      "status": "delayed",
+      "risk_score": 45.8,
+      "risk_level": "critical",
+      "is_anomaly": false,
+      "speed_kmh": 29.0,
+      "progress": 0.47,
+      "cargo_type": "Machinery",
+      "value_usd": 420248,
+      "eta_days": 17.9,
+      "top_risk_factors": [
+        "weather",
+        "piracy",
+        "mechanical_issue"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4425",
+      "origin": "Dubai",
+      "destination": "Antwerp",
+      "carrier": "Evergreen",
+      "lat": 41.87,
+      "lng": -131.03,
+      "status": "at-port",
+      "risk_score": 91.7,
+      "risk_level": "critical",
+      "is_anomaly": false,
+      "speed_kmh": 33.4,
+      "progress": 0.39,
+      "cargo_type": "Electronics",
+      "value_usd": 95322,
+      "eta_days": 16.1,
+      "top_risk_factors": [
+        "port_delay",
+        "congestion",
+        "piracy"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4426",
+      "origin": "Mumbai",
+      "destination": "Hamburg",
+      "carrier": "Maersk",
+      "lat": -55.4,
+      "lng": -69.38,
+      "status": "delayed",
+      "risk_score": 25.0,
+      "risk_level": "low",
+      "is_anomaly": true,
+      "speed_kmh": 19.1,
+      "progress": 0.27,
+      "cargo_type": "Textiles",
+      "value_usd": 381941,
+      "eta_days": 9.7,
+      "top_risk_factors": [
+        "mechanical_issue",
+        "congestion",
+        "piracy"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4427",
+      "origin": "Singapore",
+      "destination": "Rotterdam",
+      "carrier": "Evergreen",
+      "lat": 8.71,
+      "lng": -24.42,
+      "status": "delayed",
+      "risk_score": 78.9,
+      "risk_level": "critical",
+      "is_anomaly": true,
+      "speed_kmh": 21.4,
+      "progress": 0.25,
+      "cargo_type": "Textiles",
+      "value_usd": 409277,
+      "eta_days": 14.3,
+      "top_risk_factors": [
+        "port_delay",
+        "weather"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4428",
+      "origin": "Mumbai",
+      "destination": "Antwerp",
+      "carrier": "COSCO",
+      "lat": 51.27,
+      "lng": 140.74,
+      "status": "delayed",
+      "risk_score": 46.7,
+      "risk_level": "medium",
+      "is_anomaly": false,
+      "speed_kmh": 17.5,
+      "progress": 0.17,
+      "cargo_type": "Containers",
+      "value_usd": 191353,
+      "eta_days": 25.7,
+      "top_risk_factors": [
+        "weather"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    },
+    {
+      "id": "SHP-4429",
+      "origin": "Dubai",
+      "destination": "Antwerp",
+      "carrier": "Evergreen",
+      "lat": 38.74,
+      "lng": 44.94,
+      "status": "in-transit",
+      "risk_score": 94.3,
+      "risk_level": "low",
+      "is_anomaly": false,
+      "speed_kmh": 31.6,
+      "progress": 0.94,
+      "cargo_type": "Chemicals",
+      "value_usd": 205394,
+      "eta_days": 19.2,
+      "top_risk_factors": [
+        "piracy",
+        "congestion"
+      ],
+      "last_updated": "2026-04-25T18:14:29.523050+00:00"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-602646",
+      "shipment_id": "SHP-4421",
+      "type": "high_risk_flag",
+      "severity": "critical",
+      "message": "Route deviation from planned path",
+      "risk_score": 77.3,
+      "alternate_routes": [
+        {
+          "rank": 1,
+          "path": [
+            "Mumbai",
+            "Singapore",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 3474,
+          "transit_days": 31,
+          "composite_risk": 65.7,
+          "summary": "Optimized for cost and risk balance"
+        },
+        {
+          "rank": 2,
+          "path": [
+            "Mumbai",
+            "Cape Town",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 6036,
+          "transit_days": 29,
+          "composite_risk": 30.8,
+          "summary": "Longer route with lower piracy risk"
+        }
+      ],
+      "created_at": "2026-04-25T07:14:29.523050+00:00"
+    },
+    {
+      "id": "ALT-145539",
+      "shipment_id": "SHP-4425",
+      "type": "reroute_recommendation",
+      "severity": "low",
+      "message": "Vessel speed anomaly detected",
+      "risk_score": 58.5,
+      "alternate_routes": [
+        {
+          "rank": 1,
+          "path": [
+            "Mumbai",
+            "Singapore",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 3297,
+          "transit_days": 31,
+          "composite_risk": 65.9,
+          "summary": "Optimized for cost and risk balance"
+        },
+        {
+          "rank": 2,
+          "path": [
+            "Mumbai",
+            "Cape Town",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 5053,
+          "transit_days": 26,
+          "composite_risk": 30.5,
+          "summary": "Longer route with lower piracy risk"
+        }
+      ],
+      "created_at": "2026-04-25T14:14:29.523050+00:00"
+    },
+    {
+      "id": "ALT-768018",
+      "shipment_id": "SHP-4426",
+      "type": "reroute_recommendation",
+      "severity": "critical",
+      "message": "Vessel speed anomaly detected",
+      "risk_score": 56.4,
+      "alternate_routes": [
+        {
+          "rank": 1,
+          "path": [
+            "Mumbai",
+            "Singapore",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 3041,
+          "transit_days": 35,
+          "composite_risk": 68.8,
+          "summary": "Optimized for cost and risk balance"
+        },
+        {
+          "rank": 2,
+          "path": [
+            "Mumbai",
+            "Cape Town",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 4575,
+          "transit_days": 29,
+          "composite_risk": 53.4,
+          "summary": "Longer route with lower piracy risk"
+        }
+      ],
+      "created_at": "2026-04-25T12:14:29.523050+00:00"
+    },
+    {
+      "id": "ALT-151981",
+      "shipment_id": "SHP-4421",
+      "type": "anomaly_detected",
+      "severity": "critical",
+      "message": "Weather disruption in transit region",
+      "risk_score": 81.6,
+      "alternate_routes": [
+        {
+          "rank": 1,
+          "path": [
+            "Mumbai",
+            "Singapore",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 3548,
+          "transit_days": 31,
+          "composite_risk": 63.1,
+          "summary": "Optimized for cost and risk balance"
+        },
+        {
+          "rank": 2,
+          "path": [
+            "Mumbai",
+            "Cape Town",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 5641,
+          "transit_days": 29,
+          "composite_risk": 61.2,
+          "summary": "Longer route with lower piracy risk"
+        }
+      ],
+      "created_at": "2026-04-25T15:14:29.523050+00:00"
+    },
+    {
+      "id": "ALT-748123",
+      "shipment_id": "SHP-4428",
+      "type": "delay_warning",
+      "severity": "critical",
+      "message": "Port congestion detected",
+      "risk_score": 89.8,
+      "alternate_routes": [
+        {
+          "rank": 1,
+          "path": [
+            "Mumbai",
+            "Singapore",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 3093,
+          "transit_days": 33,
+          "composite_risk": 59.4,
+          "summary": "Optimized for cost and risk balance"
+        },
+        {
+          "rank": 2,
+          "path": [
+            "Mumbai",
+            "Cape Town",
+            "Rotterdam"
+          ],
+          "total_cost_usd": 4052,
+          "transit_days": 21,
+          "composite_risk": 58.1,
+          "summary": "Longer route with lower piracy risk"
+        }
+      ],
+      "created_at": "2026-04-25T06:14:29.523050+00:00"
+    }
+  ],
+  "timestamp": "2026-04-25T18:14:29.524153+00:00",
+  "note": "Mock data for testing without Firebase"
+}
